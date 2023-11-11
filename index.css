@@ -1,0 +1,83 @@
+body{
+    background: #4b697d;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding:40px 35px;
+    text-align: center;
+}
+.search-tab{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 60px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    flex:1 ;
+    margin-right: 16px;
+    font-size: 18px;
+    border: 0;
+    background: #ebfffc;
+    color: #555;
+}
+button{
+    border: 0;
+    background: #ebfffc;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+button img{
+    width: 16px;
+}
+.display{
+    margin-top: 10%;
+}
+h1{
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.temp{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+.col{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+.col img{
+    width: 60px;
+    height: 60px;
+    margin-right:15px ;
+}
+h3{
+    font-size: 22px;
+    margin-bottom:10px;
+}
+h4{
+    font-size: 15px;
+    margin-top: 0;
+    padding: 0;
+}
+.display{
+    display: none;
+}
